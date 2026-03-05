@@ -1,0 +1,9 @@
+# .gitignore
+*.jpg
+*.jpeg
+*.png
+*.pt
+runs/
+train/labels/
+valid/labels/
+test/labels/
