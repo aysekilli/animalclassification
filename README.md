@@ -1,17 +1,16 @@
-# 🐄 Animal Classification & Segmentation
+🐄 Animal Classification and Segmentation
+YOLO11-based 'instance segmentation' model trained to detect and segment farm animals(cow,sheep,horse,pig) in images.
 
-A YOLO11-based instance segmentation model trained to detect and segment farm animals in images.
+#Overview
+This project uses [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) to perform instance segmentation on farm animals. 
+Model can identify and draw outlines around each animal in an image.
 
-## 📌 Overview
-
-This project uses [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics) to perform instance segmentation on farm animals. The model can identify and draw precise outlines around each animal in an image.
-
-**Supported classes:**
+Supported classes:
 - 🐄 COW
 - 🐴 Horse
 - 🐷 Pig
 - 🐑 Sheep
-- ❓ Undefined
+-  Undefined
 
 ## 📂 Dataset
 
@@ -24,9 +23,7 @@ This project uses [Ultralytics YOLO11](https://github.com/ultralytics/ultralytic
   - Test: available
 
 ## 📊 Results
-
 Trained for 50 epochs on an NVIDIA RTX 4070 Laptop GPU (~1 hour).
-
 | Class | mAP50 (Box) | mAP50 (Mask) |
 |-------|-------------|--------------|
 | COW | 0.986 | 0.987 |
