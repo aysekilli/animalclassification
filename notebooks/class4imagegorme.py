@@ -1,7 +1,7 @@
 import os
 
-label_folder = "./train/labels"
-image_folder = "./train/images"
+label_folder = "./data/train/labels"
+image_folder = "./data/train/images"
 
 for label_file in os.listdir(label_folder):
 

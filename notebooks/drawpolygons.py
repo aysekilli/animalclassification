@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-image_dir = "train/images"
-label_dir = "train/labels"
+image_dir = "data/train/images"
+label_dir = "data/train/labels"
 
 def draw_polygons(image_path, label_path):
 

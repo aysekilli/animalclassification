@@ -4,6 +4,6 @@
 *.png
 *.pt
 runs/
-train/labels/
-valid/labels/
-test/labels/
+data/train/labels/
+data/valid/labels/
+data/test/labels/

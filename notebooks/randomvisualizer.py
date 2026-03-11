@@ -4,8 +4,8 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-IMAGE_DIR = "train/images"
-LABEL_DIR = "train/labels"
+IMAGE_DIR = "data/train/images"
+LABEL_DIR = "data/train/labels"
 
 # Rastgele image seçip polygonları çiz
 def inspect_image(img_path, label_path):

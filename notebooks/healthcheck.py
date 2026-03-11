@@ -2,8 +2,8 @@ import os
 import cv2
 from collections import Counter
 
-image_folder = "./train/images"
-label_folder = "./train/labels"
+image_folder = "./data/train/images"
+label_folder = "./data/train/labels"
 
 total_images = 0
 rgb_images = 0

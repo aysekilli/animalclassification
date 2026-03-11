@@ -3,8 +3,8 @@ import os
 # Normalizemi kontrol eder
 #
 
-img_dir = "train/images/"
-lbl_dir = "train/labels/"
+img_dir = "/data/train/images/"
+lbl_dir = "/data/train/labels/"
 
 errors = []
 for f in os.listdir(lbl_dir):
