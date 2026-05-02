@@ -12,7 +12,7 @@ Supported classes:
 - 🐑 Sheep
 -  Undefined
 
-## 📂 Dataset
+# Dataset
 
 - **Source:** [Roboflow Universe - CV Project](https://universe.roboflow.com/cvproject-d8hm5/cv-project-4-c/dataset/3)
 - **License:** CC BY 4.0
@@ -22,7 +22,7 @@ Supported classes:
   - Validation: 1,195 images
   - Test: available
 
-## 📊 Results
+# Results
 Trained for 50 epochs on an NVIDIA RTX 4070 Laptop GPU (~1 hour).
 | Class | mAP50 (Box) | mAP50 (Mask) |
 |-------|-------------|--------------|
@@ -32,7 +32,7 @@ Trained for 50 epochs on an NVIDIA RTX 4070 Laptop GPU (~1 hour).
 | Sheep | 0.858 | 0.850 |
 | **All** | **0.761** | **0.759** |
 
-## 🛠️ Model
+#  Model
 
 - **Architecture:** YOLO11n-seg
 - **Parameters:** 2.8M
